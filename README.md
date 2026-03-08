@@ -47,7 +47,6 @@ You will write the algorithm used by financial institutions to check whether a c
 
 - mixin the `LuhnValidator` module
 - initialize the instance variables
-- create a `#to_json` method that converts the instance variables into a [JSON](http://en.wikipedia.org/wiki/JSON) string format
 
 Make sure it passes the `luhn_spec` test that is provided:
 
@@ -65,6 +64,7 @@ Optionally, bench test the performance of your code by running the bench code:
 
 Work as a team to implement three ciphers that we saw in class: the Caesar Cipher, Permutation Cipher and Double Transposition Cipher. These ciphers represent the state of the art of cryptography from antiquity till World War II.
 
+- Update the file `credit_card.rb` by creating a `#to_json` method that converts the instance variables into a [JSON](http://en.wikipedia.org/wiki/JSON) string format
 - Implement the `SubstitutionCipher` module in `substitution_cipher.rb`
   - Create encrypt and decrypt methods of both ciphers
     - all methods take plaintext `document` strings with characters are printable ASCII (ord 32-126)
